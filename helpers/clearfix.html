@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang=“ko”>
+
+<head>
+  <meta charset=“utf-8”>
+  <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+  <title>clearfix</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--
+        float를 처리하는 부모의 기준에서
+        1. overflow : hidden
+        2. clear : both
+        3. (부트스트랩에서)clearfix
+        세 가지 방법 중 하나를 선택해서 사용할 수 있다.
+    -->
+    <h1 class="title">Clearfix</h1>
+    <div class="example">
+        <div class="bg-info clearfix">
+            <button type="button" class="btn btn-secondary float-start">Example Button floated left</button>
+            <button type="button" class="btn btn-secondary float-end">Example Button floated right</button>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
