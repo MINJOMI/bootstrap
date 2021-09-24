@@ -16,7 +16,14 @@
         float를 처리하는 부모의 기준에서
         1. overflow : hidden
         2. clear : both
-        3. (부트스트랩에서)clearfix
+        3. (부트스트랩에서의 클래스)clearfix
+
+        .clearfix:after{
+            display:block;
+            clear:both;
+            content:''; } 
+        -> css에서clear:both의 내용을 가지고 있는 클래스
+
         세 가지 방법 중 하나를 선택해서 사용할 수 있다.
     -->
     <h1 class="title">Clearfix</h1>
