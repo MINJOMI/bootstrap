@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+<!--캔버스를 벗어난 영역-->
 	<h1 class="title">Offcanvas components</h1>
 	<div class="example">
     <div class="offcanvas offcanvas-start offcanvas-show" tabindex="-1" id="offcanvas"
@@ -63,6 +63,7 @@
 
   <h1 class="title">Placement</h1>
 	<div class="example">
+    <!--offcanvas 호출버튼-->
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
 
 <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -70,6 +71,7 @@
     <h5 id="offcanvasTopLabel">Offcanvas top</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
+  <!--offcanvas 내용-->
   <div class="offcanvas-body">
     Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
   </div>
@@ -104,6 +106,7 @@
 
   <h1 class="title">Backdrop</h1>
 	<div class="example">
+  <!--스크롤가능,바깥클릭했을때 닫김, 둘다-->
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
