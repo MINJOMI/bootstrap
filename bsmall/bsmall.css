@@ -6,3 +6,11 @@
     max-height: 450px;
     overflow: hidden;
 }
+@media(max-width:767px){
+    .prod-main-box, .prod-main-img{
+        height: 16rem!important;
+    }
+    .prod-main-img{
+        margin-left: -490px;
+    }
+}
