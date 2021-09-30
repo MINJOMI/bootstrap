@@ -2,3 +2,7 @@
     left: 50%!important;
     margin-left: -980px;
 }
+.prod-item-box{
+    max-height: 450px;
+    overflow: hidden;
+}
